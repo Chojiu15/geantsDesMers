@@ -9,6 +9,7 @@
     <link rel="icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -30,10 +31,10 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Géants des mers</a>
+                <a class="navbar-brand" href="#"><img src="img/test_logo_geants_des_mers.png" alt="logo"></a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Description<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Description</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
@@ -44,34 +45,26 @@
                             <a class="dropdown-item" href="#animal-3">Animal 3</a>
                             <a class="dropdown-item" href="#animal-4">Animal 4</a>
                             <a class="dropdown-item" href="#animal-5">Animal 5</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Liens outils</a>
+                        <a class="nav-link" href="#web-tools">Liens outils</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
 
+
         <!-- Section - About the giants -->
-        <section id="about">
+        <section id="about" class="anchor">
             <div class="container-fluid">
                 <h2>A propos des géants des mers ...</h2>
-                <div class="row">
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-12">
-                        <img src="./img/Baleine1.png" class="img-fluid" alt="image de baleine">
-                    </div>
-                    <div class="col-lg-10 col-md-9 col-sm-6 col-12">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tortor nulla, luctus vel imperdiet
+                <div>
+                    <img src="./img/Baleine1.png" class="rounded float-left" alt="image de baleine"
+                        style="width: 300px; padding: 10px">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tortor nulla, luctus vel imperdiet
                         id, accumsan sit amet nulla. Integer porta luctus augue, id sollicitudin erat rhoncus eget.
                         Proin sem est, dictum ut dolor vel, mattis suscipit mauris. Cras quis velit laoreet, commodo
                         massa eget, vulputate metus. Etiam fermentum non elit non consectetur. Proin porta leo ligula,
@@ -81,85 +74,73 @@
                         quis eros nec nisl sollicitudin interdum ac vitae augue. Donec posuere, purus dapibus imperdiet
                         fringilla, nisi mauris condimentum sapien, at mollis mi lectus at nulla. Vestibulum tortor
                         libero, egestas vel suscipit sed, condimentum ut sapien. Nunc mi velit, dignissim vestibulum dui
-                        vehicula, vehicula rhoncus ipsum.
-                    </div>
+                        vehicula, vehicula rhoncus ipsum. <br>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, aperiam? Itaque quis
+                        doloribus nam esse fuga, amet architecto dolore fugit
+                        deserunt cupiditate reprehenderit asperiores eveniet magni nostrum obcaecati perspiciatis dolor?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Impedit unde odio inventore. Voluptatum corporis fugit consequuntur, aliquam quam temporibus
+                        quis, facilis a sit architecto, officiis illum itaque iusto
+                        esse deleniti.
+                    </p>
                 </div>
-                <p>
-                    Nulla turpis tortor, pretium a dapibus vitae, interdum quis sapien. Phasellus sodales gravida
-                    fermentum. Curabitur at felis sodales, vulputate mauris viverra, malesuada nulla. Phasellus cursus
-                    nunc interdum massa ullamcorper, a accumsan risus pharetra. Donec cursus ante vel dui faucibus, ac
-                    vehicula turpis pharetra. Sed libero odio, ornare blandit purus eget, posuere consectetur sem. Sed
-                    vehicula sagittis vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida
-                    enim eu neque vulputate suscipit sed at risus.
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Animal</th>
+                            <th scope="col">Famille</th>
+                            <th scope="col">Taille / Poid</th>
+                            <th scope="col">Alimentation</th>
+                            <th scope="col">Icon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Animal 1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
 
-                    Vestibulum auctor sem vitae ligula consequat commodo. Vestibulum euismod tincidunt ante accumsan
-                    ullamcorper. Fusce euismod sit amet nibh quis rhoncus. Nunc ornare sollicitudin lorem, sed lobortis
-                    felis varius vitae. Vivamus ut vestibulum ligula. Duis in lacus nec nisl pulvinar consequat ac vel
-                    purus. Nullam semper porttitor massa et viverra. Nulla hendrerit ornare sem at suscipit. Vivamus et
-                    sapien magna. Nullam massa leo, facilisis at nulla vel, fringilla maximus massa. Proin congue nisl
-                    elit, ut congue augue hendrerit fermentum. Pellentesque sed ornare arcu. Pellentesque eget varius
-                    ipsum, eu vulputate quam. Pellentesque pretium turpis nec tellus iaculis porttitor. Donec mi erat,
-                    suscipit rutrum nulla vitae, vestibulum malesuada erat. Integer lacus nibh, sagittis ut luctus vel,
-                    pellentesque sit amet augue.
-                </p>
-            </div>
-            <table class="table">
-                <thead class="thead-dark">
-                    <tr>
-                        <th scope="col">Animal</th>
-                        <th scope="col">Famille</th>
-                        <th scope="col">Taille / Poid</th>
-                        <th scope="col">Alimentation</th>
-                        <th scope="col">Icon</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Animal 1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">Animal 2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Animal 3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Animal 4</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Animal 5</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                        <td>@mdo</td>
-                    </tr>
-                </tbody>
-            </table>
+                        </tr>
+                        <tr>
+                            <th scope="row">Animal 2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Animal 3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Animal 4</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Animal 5</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>@mdo</td>
+                        </tr>
+                    </tbody>
+                </table>
         </section>
 
         <!-- Section - Animals -->
-        <section id="animals" id="animals">
+        <section id="animals">
             <h2>Les géants</h2>
 
             <div id="accordion">
-                <div class="card" id="animal-1">
+                <div class="card anchor" id="animal-1">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
@@ -199,7 +180,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card" id="animal-2">
+                <div class="card anchor" id="animal-2">
                     <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
@@ -239,7 +220,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card" id="animal-3">
+                <div class="card anchor" id="animal-3">
                     <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
@@ -279,16 +260,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="card" id="animal-4">
-                    <div class="card-header" id="headingThree">
+                <div class="card anchor" id="animal-4">
+                    <div class="card-header" id="headingFour">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour">
                                 Animal #4
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-8 flex-sm-wrap">Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -319,16 +300,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="card" id="animal-5">
-                    <div class="card-header" id="headingThree">
+                <div class="card anchor" id="animal-5">
+                    <div class="card-header" id="headingFive">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                aria-expanded="false" aria-controls="collapseFive">
                                 Animal #5
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-8 flex-sm-wrap">Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -365,7 +346,7 @@
         </section>
 
         <!-- Section - Web tools -->
-        <section id="web-tools">
+        <section id="web-tools" class="anchor">
             <h2>Liens outils</h2>
             <div class="container-fluid ">
                 <div class="row flex-wrap">
@@ -436,7 +417,22 @@
         </section>
 
         <!-- Section - contact -->
-        <section id="contact"></section>
+        <section id="contact" class="anchor">
+            <h2>Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="inputName">Nom</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Entrez votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                        placeholder="Votre adresse mail">
+                    <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre email.</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </section>
 
         <!-- Section - footer -->
         <footer>
