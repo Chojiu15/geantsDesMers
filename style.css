@@ -1,0 +1,9 @@
+/*NAVBAR*/
+
+.anchor:before {       
+    display: block !important;      
+    content: " "  !important;           
+    margin-top: -82px !important;             
+    height: 82px !important;             
+    visibility: hidden !important;       
+  }
