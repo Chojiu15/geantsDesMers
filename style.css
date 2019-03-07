@@ -9,12 +9,42 @@
     visibility: hidden !important;       
 }
 
+.bg-dark {
+    background-color: #205175!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+/*
+    BODY
+    */
+body{
+    background-color: #092235;
+}
+
+.container{
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /* 
     SECTIONS
 */
 
 section{
     margin-top:20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*
+    Section About
+    */
+.table .thead-dark th {
+    background-color: #011f33;
 }
 
 /*
@@ -30,7 +60,7 @@ footer{
 }
 
 .social-network a {
-    margin: 6px;
+    margin: 4px;
 }
 
 footer p{
