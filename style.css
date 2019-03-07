@@ -7,7 +7,6 @@
     margin-top: -82px !important;             
     height: 82px !important;             
     visibility: hidden !important;       
-<<<<<<< HEAD
   }
 
 /* Banner */
@@ -25,37 +24,4 @@
   color: white;
   /* z-index: 2; */
   font-size: 2vw;
-=======
-}
-
-/* 
-    SECTIONS
-*/
-
-section{
-    margin-top:20px;
-}
-
-/*
-    FOOTER
-*/
-footer{
-    background-color: #205175;
-    margin-top:20px;
-}
-.social-network{
-    display: flex;
-    justify-content: center;
-}
-
-.social-network a {
-    margin: 6px;
-}
-
-footer p{
-    margin-top: 30px;
-    color: white;
-    display: flex;
-    justify-content: center;
->>>>>>> bdd090030bb15fac66900e283479d626efa5fe72
 }
