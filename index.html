@@ -33,17 +33,17 @@
                 <a class="navbar-brand" href="#"><img src="img/test_logo_geants_des_mers.png" alt="logo"></a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Description</a>
+                        <a class="nav-link" href="#about">Description</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Animaux</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#animal-1">Animal 1</a>
-                            <a class="dropdown-item" href="#animal-2">Animal 2</a>
-                            <a class="dropdown-item" href="#animal-3">Animal 3</a>
-                            <a class="dropdown-item" href="#animal-4">Animal 4</a>
-                            <a class="dropdown-item" href="#animal-5">Animal 5</a>
+                            <a id="btn-animal-1" class="dropdown-item" href="#animal-1">Animal 1</a>
+                            <a id="btn-animal-2" class="dropdown-item" href="#animal-2">Animal 2</a>
+                            <a id="btn-animal-3" class="dropdown-item" href="#animal-3">Animal 3</a>
+                            <a id="btn-animal-4" class="dropdown-item" href="#animal-4">Animal 4</a>
+                            <a id="btn-animal-5" class="dropdown-item" href="#animal-5">Animal 5</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#web-tools">Liens outils</a>
@@ -436,11 +436,18 @@
         <!-- Section - footer -->
         <footer>
             <div class="row">
-                <div class="col">
+                <div class="col-6">
                     <p>Codé par Vanessa, Nizar et Florian. Mars 2019.</p>
                 </div>
-                <div class="col">
-                    ** Add social networks icons / links **
+                <div class="col-6 social-network">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAXVBMVEU7WZj///8/XZpJZaB8kLrW3erz9fl5jbi2wdjByt5WcKf6+/1EYZ1kfK6vu9Xj5/DI0OKUpMfO1uVRbKSpttJrgbGEl77T2ujv8feOn8RcdanL0+S1wNhed6ppgLH3HEtTAAABCUlEQVRIie3X246DIBAGYA71xElEqra1ff/H3C5U1myiI3jVhP9Oki8jOkMC4oqhpDDFkUqjv1Eosa6rnU5z9kP6p5TyeWeUxErZzdqMxpiHbjoRZe+2mDhe0tCYstdHiVeJweQ1cpyKWYNxKhYDT8e9wen4tSrMXY5j0gVatrqe37kd/s9iDtb2h1/3E6rDVqMtouOCI7vS4WLBQ+xArPEl470QWbkM7YLtxa9U8FlP69IntDb/LLQDjP9PcUhbncCFPIHNgT1vYg33+CbmNWi3cWlP4KmDsbjVPlP4UP7ZXmGMBHVhf/PsF0REi3/ZVGWcccZfiIHzfw8z6FK2hxUCroPb+H0d/AGebw1erkKE3AAAAABJRU5ErkJggg=="></a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="https://cdn.digitalsix.co.uk/wp-content/uploads/2017/11/Twitter-icon-1.png"></a>
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="https://cdn.digitalsix.co.uk/wp-content/uploads/2018/11/YouTube-icon.jpg"></a>
+                    <a href="https://skype.com" target="_blank">
+                        <img src="http://touchlab.jp/wp-content/uploads/2014/07/app_sns_skype_icon.png"></a>
                 </div>
             </div>
         </footer>
@@ -456,6 +463,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
 </body>
 
 </html>
