@@ -1,12 +1,473 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Géants des mers</title>
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <!-- Section - banner -->
+
+        <div id="banner">
+            <img src="./img/orque.jpg" class="img-fluid" alt="Responsive image" />
+            <p class="h1 banner-text">
+                Bienvenue dans  geants des mers<br>plongez dans le monde des geants marins
+            </p>
+        </div>
+
+        <!-- Section - Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="img/test_logo_geants_des_mers.png" alt="logo"></a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Description</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Animaux</a>
+                        <div class="dropdown-menu">
+                            <a id="btn-animal-1" class="dropdown-item" href="#animal-1">Animal 1</a>
+                            <a id="btn-animal-2" class="dropdown-item" href="#animal-2">Animal 2</a>
+                            <a id="btn-animal-3" class="dropdown-item" href="#animal-3">Animal 3</a>
+                            <a id="btn-animal-4" class="dropdown-item" href="#animal-4">Animal 4</a>
+                            <a id="btn-animal-5" class="dropdown-item" href="#animal-5">Animal 5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#web-tools">Liens outils</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!-- Section - About the giants -->
+        <section id="about" class="anchor">
+            <div class="container-fluid">
+                <h2>A propos des géants des mers ...</h2>
+                <div>
+                    <img src="./img/Baleine1.png" class="rounded float-left" alt="image de baleine"
+                        style="width: 300px; padding: 10px">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tortor nulla, luctus vel imperdiet
+                        id, accumsan sit amet nulla. Integer porta luctus augue, id sollicitudin erat rhoncus eget.
+                        Proin sem est, dictum ut dolor vel, mattis suscipit mauris. Cras quis velit laoreet, commodo
+                        massa eget, vulputate metus. Etiam fermentum non elit non consectetur. Proin porta leo ligula,
+                        ac ornare velit consequat in. In a mi lacus. Duis scelerisque, lacus id feugiat porta, erat
+                        purus commodo magna, in elementum sem justo quis metus. Cras tristique pretium pulvinar. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas
+                        quis eros nec nisl sollicitudin interdum ac vitae augue. Donec posuere, purus dapibus imperdiet
+                        fringilla, nisi mauris condimentum sapien, at mollis mi lectus at nulla. Vestibulum tortor
+                        libero, egestas vel suscipit sed, condimentum ut sapien. Nunc mi velit, dignissim vestibulum dui
+                        vehicula, vehicula rhoncus ipsum. <br>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, aperiam? Itaque quis
+                        doloribus nam esse fuga, amet architecto dolore fugit
+                        deserunt cupiditate reprehenderit asperiores eveniet magni nostrum obcaecati perspiciatis dolor?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Impedit unde odio inventore. Voluptatum corporis fugit consequuntur, aliquam quam temporibus
+                        quis, facilis a sit architecto, officiis illum itaque iusto
+                        esse deleniti.
+                    </p>
+                </div>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Animal</th>
+                            <th scope="col">Famille</th>
+                            <th scope="col">Taille / Poid</th>
+                            <th scope="col">Alimentation</th>
+                            <th scope="col">Icon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Animal 1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Animal 2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Animal 3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Animal 4</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Animal 5</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>@mdo</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+
+        <!-- Section - Animals -->
+        <section id="animals">
+            <h2>Les géants</h2>
+
+            <div id="accordion">
+                <div class="card anchor" id="animal-1">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Animal #1
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8 flex-sm-wrap">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Odit magni at cupiditate non mollitia fugiat eaque
+                                    quisquam soluta, labore assumenda asperiores earum! Quod quo fugit quaerat saepe
+                                    assumenda, error quibusdam?
+                                    Necessitatibus voluptate dolorem aliquid quaerat vero illo doloremque quasi nesciunt
+                                    eos sit ducimus velit quibusdam error et impedit, possimus
+                                    laboriosam beatae molestias vitae cum corporis ea! Consequatur, maiores. Nostrum,
+                                    deserunt.
+                                    Provident, animi sed? Voluptatibus facilis delectus facere quod, voluptate obcaecati
+                                    odit eaque modi necessitatibus fuga assumenda aut libero in
+                                    accusantium nostrum architecto consequuntur illo unde nulla reprehenderit fugiat
+                                    atque asperiores.
+                                </div>
+                                <div class="col-md-4 flex-sm-wrap">
+                                    <ul>
+                                        <li>Famille : </li>
+                                        <li>Taille : </li>
+                                        <li>Poids : </li>
+                                        <li>Alimentation : </li>
+                                    </ul>
+                                </div>
+                                <div class="container-fluid">
+                                    <img src="./img/Baleine1.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card anchor" id="animal-2">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                Animal #2
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8 flex-sm-wrap">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Odit magni at cupiditate non mollitia fugiat eaque
+                                    quisquam soluta, labore assumenda asperiores earum! Quod quo fugit quaerat saepe
+                                    assumenda, error quibusdam?
+                                    Necessitatibus voluptate dolorem aliquid quaerat vero illo doloremque quasi nesciunt
+                                    eos sit ducimus velit quibusdam error et impedit, possimus
+                                    laboriosam beatae molestias vitae cum corporis ea! Consequatur, maiores. Nostrum,
+                                    deserunt.
+                                    Provident, animi sed? Voluptatibus facilis delectus facere quod, voluptate obcaecati
+                                    odit eaque modi necessitatibus fuga assumenda aut libero in
+                                    accusantium nostrum architecto consequuntur illo unde nulla reprehenderit fugiat
+                                    atque asperiores.
+                                </div>
+                                <div class="col-md-4 flex-sm-wrap">
+                                    <ul>
+                                        <li>Famille : </li>
+                                        <li>Taille : </li>
+                                        <li>Poids : </li>
+                                        <li>Alimentation : </li>
+                                    </ul>
+                                </div>
+                                <div class="container-fluid">
+                                    <img src="./img/Baleine1.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card anchor" id="animal-3">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                Animal #3
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8 flex-sm-wrap">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Odit magni at cupiditate non mollitia fugiat eaque
+                                    quisquam soluta, labore assumenda asperiores earum! Quod quo fugit quaerat saepe
+                                    assumenda, error quibusdam?
+                                    Necessitatibus voluptate dolorem aliquid quaerat vero illo doloremque quasi nesciunt
+                                    eos sit ducimus velit quibusdam error et impedit, possimus
+                                    laboriosam beatae molestias vitae cum corporis ea! Consequatur, maiores. Nostrum,
+                                    deserunt.
+                                    Provident, animi sed? Voluptatibus facilis delectus facere quod, voluptate obcaecati
+                                    odit eaque modi necessitatibus fuga assumenda aut libero in
+                                    accusantium nostrum architecto consequuntur illo unde nulla reprehenderit fugiat
+                                    atque asperiores.
+                                </div>
+                                <div class="col-md-4 flex-sm-wrap">
+                                    <ul>
+                                        <li>Famille : </li>
+                                        <li>Taille : </li>
+                                        <li>Poids : </li>
+                                        <li>Alimentation : </li>
+                                    </ul>
+                                </div>
+                                <div class="container-fluid">
+                                    <img src="./img/Baleine1.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card anchor" id="animal-4">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour">
+                                Animal #4
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8 flex-sm-wrap">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Odit magni at cupiditate non mollitia fugiat eaque
+                                    quisquam soluta, labore assumenda asperiores earum! Quod quo fugit quaerat saepe
+                                    assumenda, error quibusdam?
+                                    Necessitatibus voluptate dolorem aliquid quaerat vero illo doloremque quasi nesciunt
+                                    eos sit ducimus velit quibusdam error et impedit, possimus
+                                    laboriosam beatae molestias vitae cum corporis ea! Consequatur, maiores. Nostrum,
+                                    deserunt.
+                                    Provident, animi sed? Voluptatibus facilis delectus facere quod, voluptate obcaecati
+                                    odit eaque modi necessitatibus fuga assumenda aut libero in
+                                    accusantium nostrum architecto consequuntur illo unde nulla reprehenderit fugiat
+                                    atque asperiores.
+                                </div>
+                                <div class="col-md-4 flex-sm-wrap">
+                                    <ul>
+                                        <li>Famille : </li>
+                                        <li>Taille : </li>
+                                        <li>Poids : </li>
+                                        <li>Alimentation : </li>
+                                    </ul>
+                                </div>
+                                <div class="container-fluid">
+                                    <img src="./img/Baleine1.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card anchor" id="animal-5">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                aria-expanded="false" aria-controls="collapseFive">
+                                Animal #5
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8 flex-sm-wrap">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Odit magni at cupiditate non mollitia fugiat eaque
+                                    quisquam soluta, labore assumenda asperiores earum! Quod quo fugit quaerat saepe
+                                    assumenda, error quibusdam?
+                                    Necessitatibus voluptate dolorem aliquid quaerat vero illo doloremque quasi nesciunt
+                                    eos sit ducimus velit quibusdam error et impedit, possimus
+                                    laboriosam beatae molestias vitae cum corporis ea! Consequatur, maiores. Nostrum,
+                                    deserunt.
+                                    Provident, animi sed? Voluptatibus facilis delectus facere quod, voluptate obcaecati
+                                    odit eaque modi necessitatibus fuga assumenda aut libero in
+                                    accusantium nostrum architecto consequuntur illo unde nulla reprehenderit fugiat
+                                    atque asperiores.
+                                </div>
+                                <div class="col-md-4 flex-sm-wrap">
+                                    <ul>
+                                        <li>Famille : </li>
+                                        <li>Taille : </li>
+                                        <li>Poids : </li>
+                                        <li>Alimentation : </li>
+                                    </ul>
+                                </div>
+                                <div class="container-fluid">
+                                    <img src="./img/Baleine1.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+        </section>
+
+        <!-- Section - Web tools -->
+        <section id="web-tools" class="anchor">
+            <h2>Liens outils</h2>
+            <div class="container-fluid ">
+                <div class="row flex-wrap">
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top img-fluid" src="img/sm_baleine1.png/sm_baleine1.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Anymalaxy.fr</h5>
+                                <p class="card-text"><a href="https://animalaxy.fr/10-plus-grandes-creatures-mers/"
+                                        target="_blank">Top 11 des plus grands animaux marins</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/sm_baleine1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/sm_baleine1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/sm_baleine1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/sm_baleine1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/sm_baleine1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section - contact -->
+        <section id="contact" class="anchor">
+            <h2>Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="inputSecondName">Nom</label>
+                    <input type="text" class="form-control" id="inputSecondName" placeholder="Entrez votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="inputName">Prénom</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Entrez votre prénom">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                        placeholder="Votre adresse mail">
+                    <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre email.</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </section>
+
+        <!-- Section - footer -->
+        <footer>
+            <div class="row">
+                <div class="col-md-7 col-12">
+                    <p>Codé par Vanessa, Nizar et Florian. Mars 2019.</p>
+                </div>
+                <div class="col-md-5 col-12 social-network">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAXVBMVEU7WZj///8/XZpJZaB8kLrW3erz9fl5jbi2wdjByt5WcKf6+/1EYZ1kfK6vu9Xj5/DI0OKUpMfO1uVRbKSpttJrgbGEl77T2ujv8feOn8RcdanL0+S1wNhed6ppgLH3HEtTAAABCUlEQVRIie3X246DIBAGYA71xElEqra1ff/H3C5U1myiI3jVhP9Oki8jOkMC4oqhpDDFkUqjv1Eosa6rnU5z9kP6p5TyeWeUxErZzdqMxpiHbjoRZe+2mDhe0tCYstdHiVeJweQ1cpyKWYNxKhYDT8e9wen4tSrMXY5j0gVatrqe37kd/s9iDtb2h1/3E6rDVqMtouOCI7vS4WLBQ+xArPEl470QWbkM7YLtxa9U8FlP69IntDb/LLQDjP9PcUhbncCFPIHNgT1vYg33+CbmNWi3cWlP4KmDsbjVPlP4UP7ZXmGMBHVhf/PsF0REi3/ZVGWcccZfiIHzfw8z6FK2hxUCroPb+H0d/AGebw1erkKE3AAAAABJRU5ErkJggg=="></a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="https://cdn.digitalsix.co.uk/wp-content/uploads/2017/11/Twitter-icon-1.png"></a>
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="https://cdn.digitalsix.co.uk/wp-content/uploads/2018/11/YouTube-icon.jpg"></a>
+                    <a href="https://skype.com" target="_blank">
+                        <img src="http://touchlab.jp/wp-content/uploads/2014/07/app_sns_skype_icon.png"></a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
 </body>
+
 </html>
