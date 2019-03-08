@@ -57,7 +57,7 @@ section{
   
 .banner-text {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 30%;
   transform: translate(-30%, -50%);
   color: white;
