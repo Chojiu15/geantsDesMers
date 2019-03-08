@@ -1,3 +1,7 @@
+/*GENERALS*/
+.clear{
+    clear: both;
+}
 /* NAVBAR */
 .anchor:before {       
     display: block !important;      
@@ -5,6 +9,10 @@
     margin-top: -82px !important;             
     height: 82px !important;             
     visibility: hidden !important;       
+}
+
+.nav-center {
+    text-align: center;
 }
 
 .bg-dark {
@@ -18,6 +26,7 @@
 /* BODY */
 body{
     background-color: #092235;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
@@ -34,9 +43,21 @@ section{
     padding-right: 15px;
 }
 
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 /* Section About */
-.table .thead-dark th {
+.th-style th {
     background-color: #011f33;
+    color: white;
+    padding: 10px;
+}
+
+.table-responsive-sm{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Section Partenaires */
@@ -53,7 +74,7 @@ section{
 /* BANNER */
 
 #banner {
-  position : relative;
+    position : relative;
 }
   
 .banner-text {
@@ -63,6 +84,17 @@ section{
   transform: translate(-30%, -50%);
   color: white;
   font-size: 2vw;
+  text-align: center;
+  text-shadow: 1px 2px #999;
+  width: 100%;
+  background-color: rgba(51, 30, 171, 0.438);
+  padding: 8px;
+
+}
+
+.subtitle{
+    font-size: 20px;
+
 }
 
 /* FOOTER */
