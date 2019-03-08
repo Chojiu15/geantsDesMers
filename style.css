@@ -1,6 +1,4 @@
-/*
-    NAVBAR
-*/
+/* NAVBAR */
 .anchor:before {       
     display: block !important;      
     content: " "  !important;           
@@ -10,16 +8,14 @@
 }
 
 .bg-dark {
-    background-color: #205175!important;
+    background-color: #091823!important
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
 }
 
-/*
-    BODY
-    */
+/* BODY */
 body{
     background-color: #092235;
 }
@@ -30,9 +26,7 @@ body{
     padding-right: 0px;
 }
 
-/* 
-    SECTIONS
-*/
+/* SECTIONS */
 
 section{
     margin-top:20px;
@@ -40,16 +34,23 @@ section{
     padding-right: 15px;
 }
 
-/*
-    Section About
-    */
+/* Section About */
 .table .thead-dark th {
     background-color: #011f33;
 }
 
-/* 
-  BANNER 
-*/
+/* Section Partenaires */
+.top-buffer-20 {
+    margin-top: 20px;
+}
+
+#web-tools a:hover {
+    text-decoration: none;
+}
+
+
+
+/* BANNER */
 
 #banner {
   position : relative;
@@ -64,9 +65,7 @@ section{
   font-size: 2vw;
 }
 
-/*
-    FOOTER
-*/
+/* FOOTER */
 
 footer{
     background-color: #205175;
@@ -86,4 +85,14 @@ footer p{
     color: white;
     display: flex;
     justify-content: center;
+}
+
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
 }
